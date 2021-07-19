@@ -7,6 +7,11 @@
     font-family: 'Poppins', sans-serif;
 }
 
+html, body, #wrapper {
+    width: 100%;
+    min-height: 100%;
+}
+
 .txt1{
     margin: 20px;
     color: white;
@@ -35,7 +40,6 @@ header{
     justify-content: space-between;
     align-items: center;
     background-color: #dfcadf;
-    position: fixed;
 }
 
 header .logo{
