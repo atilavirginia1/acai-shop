@@ -70,6 +70,7 @@ header ul li a:hover{
     border-radius: 10px;
 }
 .content{
+    margin-top: 50px;
     position: relative;
     width: 100%;
     display: flex;
@@ -122,7 +123,7 @@ header ul li a:hover{
 }
 
 #mainImg{
-    width: 600px;
+    width: 500px;
 }
 .thumb{
     position: absolute;
