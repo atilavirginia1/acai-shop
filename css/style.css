@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.txt1{
+    margin: 20px;
+    color: white;
+    text-align: right;
+}
+section{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #660066;
+    transition: 0.5s;
+    overflow: hidden;
+}
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #dfcadf;
+}
+
+header .logo{
+    position: relative;
+    max-width: 80px;
+}
+
+header ul{
+    position: relative;
+    display: flex;
+}
+
+header ul li{
+    list-style: none;
+}
+
+header ul li a{
+    display: inline-block;
+    color: rgb(107, 50, 93);
+    font-weight: 400;
+    margin-left: 40px;
+    text-decoration: none;
+}
+
+header ul li a:hover{
+    color: orange;
+    font-weight: bold;
+}
+
+.logo{
+    width: 200px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.content{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content .textBox{
+  position: relative;
+  max-width: 600px;  
+}
+
+.content .textBox h2{
+    color: #fff;
+    font-size: 3.5em;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.content .textBox h2 span{
+    font-size: 2em;
+}
+
+.content .textBox p{
+    color: #fff;
+}
+
+.content .textBox a{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background: #fff;
+    color: #111;
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.content .imgBox{
+    width: 600px;
+    display: flex;
+    padding-right: 50px;
+    justify-content: flex-end;
+}
+
+.content .imgBox{
+    max-width: 260px;
+}
+
+#mainImg{
+    width: 600px;
+}
+.thumb{
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    transform: translateX(-50%);
+    display: flex;
+}
+
+.thumb li{
+    list-style: none;
+    display:inline-block;
+    margin: 0 20px;
+    cursor: pointer;
+    transition: 0.5s;
+    font-size: 60px;
+    color: #FFF;
+}
+
+.thumb li img{
+    max-width: 40px;
+}
+
+.thumb li:hover{
+    transform: translateY(-15px);
+}
+
+.sci{
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sci li{
+    list-style: none;
+}
+
+.sci li a{
+    display: inline-block;
+    filter: invert(1);
+    margin: 5px 0;
+    transform: scale(0.6);
+}
+
+
+input{
+    width: 300px;
+    display: flex;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+button{
+    padding: 9px 128px;
+    background-color:darkblue;
+    color: #fff;
+    border-radius: 40px;
+}
+
+span{
+    font-size: 15px;
+    margin-bottom: 10px;
+    padding: 5px;
+    color: #fff
+}
+
+label{
+    font-size: 15px;
+    color: gray;
+}
+
+.checkboxes{
+    background-color: white;
+    width: 600px;
+    margin-bottom: 10px;
+    padding: 10px;
+    padding-top: 10px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 0.5px;
+}
+
+.delivery{
+    width: 50%;
+    position: relative;
+    animation: animateright 0.8s;
+}
+
+@keyframes animateright{from{right:-300px;opacity:0} to{right:0;opacity:1}}
+
+.dot {
+    height: 800px;
+    width: 1600px;
+    color: gray;
+    background-color: #ff8000;
+    border-radius: 100%;
+    padding-top: 100px;
+    display: block;
+    position: absolute;
+    float: right;
+    margin-left: 300px;
+    margin-top: 300px;
+  }
+
+  .inputs{
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px;
+  }
+
+  #enviar{
+      justify-content: center;
+      width: 100%;
+      background-color: #f179d3;
+  }
+
+  #enviar:hover{
+    justify-content: center;
+    width: 100%;
+    background-color: #dfcadf
+  }
+
+  #compl{
+      color: gray;
+      font-size:16px;
+  }
+
+  .form-check{
+      padding-bottom: 5px;
+  }
+
+  textarea{
+      width: 100%;
+      height: 100px;
+      padding: 10px;
+      border-radius: 5px;
+      border-style: solid;
+      border-width: 0.5px;
+      resize: none;
+  }
