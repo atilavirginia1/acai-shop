@@ -35,6 +35,7 @@ header{
     justify-content: space-between;
     align-items: center;
     background-color: #dfcadf;
+    position: fixed;
 }
 
 header .logo{
@@ -71,6 +72,7 @@ header ul li a:hover{
 }
 .content{
     margin-top: 50px;
+    margin-bottom: 50px;
     position: relative;
     width: 100%;
     display: flex;
