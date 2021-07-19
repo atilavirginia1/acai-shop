@@ -7,12 +7,6 @@
     font-family: 'Poppins', sans-serif;
 }
 
-html, body{
-    width: 100%;
-    min-height: 100%;
-    overflow: hidden;
-}
-
 .txt1{
     margin: 20px;
     color: white;
@@ -76,7 +70,6 @@ header ul li a:hover{
     border-radius: 10px;
 }
 .content{
-    margin-top: 50px;
     position: relative;
     width: 100%;
     display: flex;
