@@ -216,6 +216,9 @@ label{
     animation: animateright 0.8s;
 }
 
+form{
+    padding: 30px
+}
 @keyframes animateright{from{right:-300px;opacity:0} to{right:0;opacity:1}}
 
 .dot {
